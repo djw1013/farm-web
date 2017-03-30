@@ -13,5 +13,5 @@
         http://www.springframework.org/schema/security/spring-security.xsd">
 
 	<context:annotation-config />
-	<import resource="classpath:spring-web.xml" />
+	<import resource="classpath:conf/spring/spring-web.xml" />
 </beans>
