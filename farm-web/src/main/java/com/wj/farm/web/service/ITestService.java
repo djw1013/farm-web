@@ -1,8 +1,9 @@
 package com.wj.farm.web.service;
 
 import java.util.List;
-import java.util.Map;
+
+import com.wj.farm.entity.TestEntity;
 
 public interface ITestService {
-    List<Map<String, Object>> queryList();
+    List<TestEntity> queryList(String name);
 }
